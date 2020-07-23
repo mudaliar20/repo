@@ -1,8 +1,7 @@
 provider "aws" {
-   region = "us-east-2"
-   assume_role {
-	role_arn = "arn:aws:iam::759442462106:role/terraform-test-role"
-}
+  region     = "us-west-2"
+  access_key = "AKIA3BUSMKWNMS7LXN77"
+  secret_key = "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"
 }
 
 terraform{
